@@ -2,12 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Character = ({ name, image }) => (
-  <figure>
-    <img src={image} alt=''/>
-    <figcaption>
-      <h1>{name}</h1>
-    </figcaption>
-  </figure>
+  <div>
+    <h2>{name}</h2>
+    <img src={image}/>
+  
+  </div>
 );
 
 Character.propTypes = {

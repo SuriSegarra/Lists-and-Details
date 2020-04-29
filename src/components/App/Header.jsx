@@ -1,13 +1,8 @@
 import React from 'react';
- import PropTypes from 'prop-types';
-
-const Header = ({ title = 'Hey Arnold!:Characters' }) => (
-  <>
-    <h1>{title}</h1>
-  </>
+ 
+const Header = () => (
+  <div>
+    <h1>Hey Arnold: Characters</h1>
+  </div>
 );
-
-Header.propTypes = {
-  title: PropTypes.string
-};
 export default Header;
