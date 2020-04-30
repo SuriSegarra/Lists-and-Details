@@ -2,12 +2,15 @@
 import React from 'react';
 import Character from '../Detail/Character';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const Characters = ({ characters }) => {
   const charactersList = characters.map(character => (
-    <li key={character._id}>
-      <Character {...character}/>
-    </li>
+    <Link key={character._id} to={`/character/${character._id}`}>
+      <li>
+        <Character {...character}/>
+      </li>
+    </Link>
   ));
   return (
     <ul>
