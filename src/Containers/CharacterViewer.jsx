@@ -8,7 +8,8 @@ const CharactersViewer = () => {
   useEffect(() => {
     fetchCharacters()
       .then(characters => setCharacters(characters));
-  });
+  }, []);
+console.log(characters);
   return (
     <>
       <Characters characters={characters}/>
