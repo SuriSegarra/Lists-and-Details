@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './Header';
+import Header from '../Header/Header';
 import CharactersViewer from '../../Containers/CharacterViewer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Detail from '../../Containers/Detail';

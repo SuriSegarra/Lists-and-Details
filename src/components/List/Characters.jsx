@@ -3,6 +3,7 @@ import React from 'react';
 import Character from '../Detail/Character';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import styles from './Characters.css';
 
 const Characters = ({ characters }) => {
   const charactersList = characters.map(character => (
@@ -13,7 +14,7 @@ const Characters = ({ characters }) => {
     </Link>
   ));
   return (
-    <ul>
+    <ul className={styles.Characters}>
       {charactersList}
     </ul>
   );
