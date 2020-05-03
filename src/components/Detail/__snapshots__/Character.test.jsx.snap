@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character component renders Character 1`] = `
+<div
+  className="Character"
+>
+  <h2>
+    Arnold Shortman
+  </h2>
+  <img
+    src="https://vignette.wikia.nocookie.net/heyarnold/images/f/f5/Arnold.png/revision/latest?cb=20181027162333"
+  />
+</div>
+`;

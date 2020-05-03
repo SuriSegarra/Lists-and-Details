@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character renders Characters 1`] = `
+<ul
+  className="Characters"
+>
+  <Link
+    to="/character/undefined"
+  >
+    <li>
+      <Character
+        id={1}
+        image="url"
+        name="Ang"
+      />
+    </li>
+  </Link>
+</ul>
+`;
+
+exports[`Characters renders Characters 1`] = `
+<ul
+  className="Characters"
+>
+  <Link
+    to="/character/undefined"
+  >
+    <li>
+      <Character
+        image="url"
+        name="Ang"
+      />
+    </li>
+  </Link>
+</ul>
+`;
